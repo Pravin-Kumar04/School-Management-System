@@ -78,27 +78,6 @@ public class SchoolManagementSystem {
         	System.out.println("Invalid choice. Exiting...");
             System.exit(0);
         }
-        
-//        switch (studentChoice) {
-//            case 1:
-//                StudentRegistration studentReg = new StudentRegistration();
-//                studentReg.studentReg();
-//                studentActions();
-//                break;
-//            case 2:
-//            	
-//            	StudentLogin studentLogin = new StudentLogin();
-//                studentLogin.StudentLogin();
-//                break;
-//            case 3:
-//                System.out.println("Logging out...");
-//                main(null); // Redirect to choose user type
-//                break;
-//            default:
-//                System.out.println("Invalid choice. Exiting...");
-//                System.exit(0);
-//        }
-//        } while(studentChoice!=3);
         objStud.close();
     }
     
